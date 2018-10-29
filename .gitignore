@@ -1,0 +1,15 @@
+# idea
+.idea/workspace.xml
+.idea/
+*/target/*
+*.iml
+
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+*/migrations/*
+secret.py
