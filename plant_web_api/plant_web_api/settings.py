@@ -39,13 +39,13 @@ CORS_ORIGIN_WHITELIST = (
 
 INSTALLED_APPS = [
     'corsheaders',
-    'plant.apps.PlantConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'plant.apps.PlantConfig'
 ]
 
 MIDDLEWARE = [
